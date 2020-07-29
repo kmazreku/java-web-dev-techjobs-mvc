@@ -1,9 +1,11 @@
 .body-content {
     margin-top: 72px;
+
 }
 
 td, th {
     padding: 10px;
+    font-size:1.3rem;
 }
 
 th {
@@ -14,9 +16,7 @@ td {
     vertical-align: top;
 }
 
-tr:nth-child(odd) {
-    background-color: #e4e4e4;
-}
+
 
 .centeredTable {
     margin-left: auto;
@@ -44,3 +44,13 @@ label {
 .centered {
     text-align: center;
 }
+.row>div:nth-child(odd){
+ background-color:#FFF !important;
+ border:1px solid #f9f9f9;
+}
+
+.row>div:nth-child(even){
+ background-color:#e4e4e4 !important;
+}
+.col-xs-3{width:33%;}
+.sub-head{font-weight:bold; color:#555; text-transform:uppercase; display:inline-block; padding-right:8px;}
